@@ -77,6 +77,8 @@ class MealDetailSreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: null)
+      ,
       appBar: AppBar(title: Text('$mealId')),
     );
   }
